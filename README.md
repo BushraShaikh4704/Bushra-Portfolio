@@ -1,4 +1,4 @@
 # Bushra-Shaikh
 This is my first Git Repository
 <br>
-Author - Bushra Shaikh
+Author - Bushra Shaikh Sadique
