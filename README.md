@@ -14,18 +14,16 @@ I am a passionate developer/data enthusiast exploring projects, learning new tec
 
 Here are some of my projects:
 
-1. **Fake Job Posting Detection** – •	Implemented Logistic Regression and Random Forest models on 17,000+ job listings
-<br>
-•	Applied TF-IDF feature extraction and 5-fold cross-validation
-<br>
-•	Achieved 82% accuracy and improved F1-score by X% over baseline.
-
-2. **Data Leakage Study** – Research project analyzing how improper data handling can inflate ML model performance.  
-3. **IoT Based Home Automation System** – •	Built a system to control lights and fans using ESP8266 NodeMCU
-<br>
-•	Implemented app-to-device communication using IoT concepts
-<br>
-•	Gained hands-on experience with electronics, system architecture, and automation
+1. **Fake Job Posting Detection** – 
+Implemented Logistic Regression and Random Forest models on 17,000+ job listings 
+Applied TF-IDF feature extraction and 5-fold cross-validation
+Achieved 82% accuracy and improved F1-score by X% over baseline.
+2. **Data Leakage Study** – 
+Research project analyzing how improper data handling can inflate ML model performance.  
+3. **IoT Based Home Automation System** – 
+Built a system to control lights and fans using ESP8266 NodeMCU
+Implemented app-to-device communication using IoT concepts
+Gained hands-on experience with electronics, system architecture, and automation
   
 
 Check out my projects in the repository folders for more details.
