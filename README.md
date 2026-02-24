@@ -6,24 +6,30 @@ I am a passionate developer/data enthusiast exploring projects, learning new tec
 
 ## About Me
 
-- 💻 Interested in: [Your main skills, e.g., Python, Machine Learning, Web Development]  
-- 🌱 Currently learning: [Your current focus, e.g., Deep Learning, React, Cloud]  
-- 📫 How to reach me: [Your email or LinkedIn]
+- 💻 Interested in: Python, Data Science, Machine Learning.  
+- 🌱 Currently learning: Data Science  
+- 📫 How to reach me: https://www.linkedin.com/in/bushrashaikh4704
 
 ## Projects
 
 Here are some of my projects:
 
-1. **Project 1** – Brief description  
-2. **Project 2** – Brief description  
-3. **Project 3** – Brief description  
+1. **Fake Job Posting Detection** – •	Implemented Logistic Regression and Random Forest models on 17,000+ job listings
+•	Applied TF-IDF feature extraction and 5-fold cross-validation
+•	Achieved 82% accuracy and improved F1-score by X% over baseline  
+2. **Data Leakage Study** – Research project analyzing how improper data handling can inflate ML model performance.  
+3. **IoT Based Home Automation System** – •	Built a system to control lights and fans using ESP8266 NodeMCU
+•	Implemented app-to-device communication using IoT concepts
+•	Gained hands-on experience with electronics, system architecture, and automation
+  
 
 Check out my projects in the repository folders for more details.
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-link)  
-- [GitHub](https://github.com/your-username)  
+- [LinkedIn](https://www.linkedin.com/in/bushrashaikh4704)  
+- [GitHub](https://github.com/BushraShaikh4704)  
+- [Email](bushrashaikh4704@gmail.com)
 
 ---
 
