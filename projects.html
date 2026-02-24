@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects | Bushra Shaikh</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-left">
+    <h2>Shaikh Bushra</h2>
+  </div>
+
+  <div class="nav-center">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="nav-right">
+    <a href="Resume.docx" download class="resume-btn">
+      Download Resume
+    </a>
+  </div>
+</nav>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project-container">
+
+  <div class="project-card">
+    <h3>Fake Job Detection</h3>
+    <p>Machine learning model that detects fraudulent job postings using classification and preprocessing techniques.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>Data Leakage Study</h3>
+    <p>Research project analyzing how improper data handling can inflate ML model performance.</p>
+  </div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Bushra Shaikh</p>
+</footer>
+
+<script>
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+
+  for (let i = 0; i < reveals.length; i++) {
+    const windowHeight = window.innerHeight;
+    const elementTop = reveals[i].getBoundingClientRect().top;
+    const elementVisible = 100;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", revealOnScroll);
+</script>
+
+</body>
+</html>

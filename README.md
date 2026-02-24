@@ -8,7 +8,7 @@ I am a passionate developer/data enthusiast exploring projects, learning new tec
 
 - 💻 Interested in: Python, Data Science, Machine Learning.  
 - 🌱 Currently learning: Data Science  
-- 📫 How to reach me: [My LinkedIn](https://www.linkedin.com/in/bushrashaikh4704)
+- 📫 How to reach me: [My LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)
 
 ## Projects
 
@@ -30,8 +30,8 @@ Check out my projects in the repository folders for more details.
 
 ## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/bushrashaikh4704)  
-- [GitHub](https://github.com/BushraShaikh4704)  
+- [LinkedIn↗](https://www.linkedin.com/in/bushrashaikh4704)  
+- [GitHub↗](https://github.com/BushraShaikh4704)  
 
 ---
 

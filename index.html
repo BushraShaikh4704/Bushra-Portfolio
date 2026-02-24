@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-left">
+    <h2>Shaikh Bushra</h2>
+  </div>
+
+  <div class="nav-center">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="nav-right">
+    <a href="Resume.docx" download class="resume-btn">
+      Download Resume
+    </a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Hi There, I'm</h1>
+    <h1 class="highlight">Shaikh Bushra</h1>
+    <p><span id="typing"></span></p>
+
+    <a href="contact.html" class="cta-btn">Get In Touch</a>
+  </div>
+
+  <div class="hero-image">
+    <div class="circle"></div>
+    <img src="Profile_Image.png" alt="Shaikh Bushra">
+  </div>
+</section>
+
+<footer>
+<p>© 2026 Bushra Shaikh</p>
+</footer>
+
+<script>
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+
+  for (let i = 0; i < reveals.length; i++) {
+    const windowHeight = window.innerHeight;
+    const elementTop = reveals[i].getBoundingClientRect().top;
+    const elementVisible = 100;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", revealOnScroll);
+</script>
+
+<script>
+const textArray = [
+  "Aspiring Data Scientist",
+  "Machine Learning Enthusiast",
+  "Problem Solver"
+];
+
+let index = 0;
+let charIndex = 0;
+let currentText = "";
+let isDeleting = false;
+
+function typeEffect() {
+  currentText = textArray[index];
+  
+  if (!isDeleting) {
+    document.getElementById("typing").textContent =
+      currentText.substring(0, charIndex + 1);
+    charIndex++;
+    
+    if (charIndex === currentText.length) {
+      isDeleting = true;
+      setTimeout(typeEffect, 1000);
+      return;
+    }
+  } else {
+    document.getElementById("typing").textContent =
+      currentText.substring(0, charIndex - 1);
+    charIndex--;
+    
+    if (charIndex === 0) {
+      isDeleting = false;
+      index = (index + 1) % textArray.length;
+    }
+  }
+  
+  setTimeout(typeEffect, isDeleting ? 50 : 100);
+}
+
+typeEffect();
+</script>
+
+</body>
+</html>
