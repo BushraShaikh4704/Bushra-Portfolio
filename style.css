@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -45,14 +54,6 @@ a {
 
 a:hover {
   color: #a67c00;
-}
-
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #222;
-  color: white;
-  margin-top: 20px;
 }
 
 section:hover {
@@ -273,4 +274,8 @@ html {
 
 .navbar a.active::after{
   width:100%;
+}
+
+footer {
+  margin-top: auto;
 }
