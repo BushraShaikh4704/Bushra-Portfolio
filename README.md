@@ -8,7 +8,7 @@
 
 Welcome to my portfolio! 👋  
 
-I’m **Shaikh Bushra**, an aspiring **Data Scientist** passionate about solving real-world problems using **data-driven approaches and Machine Learning**.
+I’m **Shaikh Bushra**, an **Data Scientist** passionate about solving real-world problems using **data-driven approaches and Machine Learning**.
 
 ## 🌐 Live Portfolio Website
 
