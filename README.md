@@ -67,7 +67,7 @@ Here are some of my projects:
 - Implemented app-to-device communication using IoT concepts.
 - Gained hands-on experience with Electronics, System architecture, Automation systems
 
-Check out my projects in the repository folders for more details.
+Check out my projects in the repository folders for more details!.
 
 ## 🤝 Connect With Me
 
