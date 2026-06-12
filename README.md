@@ -62,7 +62,7 @@ Here are some of my projects:
 - Implemented correct Train–Validation–Test splitting using Scikit-learn.
 - Simulated real-world data leakage scenarios.
 - Analyzed performance inflation caused by improper preprocessing.
-3. **IoT Based Home Automation System –**
+3. **IoT Based Home Automation System**
 - Built a smart system to control lights and fans using ESP8266 NodeMCU.
 - Implemented app-to-device communication using IoT concepts.
 - Gained hands-on experience with Electronics, System architecture, Automation systems
