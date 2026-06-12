@@ -55,7 +55,7 @@ Here are some of my projects:
 - Trained a Logistic Regression classifier.
 - Evaluated using Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
 - Handled class imbalance using Random Oversampling.
-2. **Data Leakage Impact Study in Machine Learning –**
+2. **Data Leakage Impact Study in Machine Learning**
 - Designed a controlled experiment comparing:
 - Proper ML pipeline
 - Intentionally leaky pipeline
