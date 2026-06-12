@@ -49,7 +49,7 @@ see the [LICENSE↗](LICENSE) file for details.
 
 Here are some of my projects:
 
-1. **Fake Job Posting Detection using NLP –**
+1. **Fake Job Posting Detection using NLP**
 - Developed a machine learning model to detect fraudulent job postings.
 - Performed text preprocessing and applied TF-IDF vectorization.
 - Trained a Logistic Regression classifier.
