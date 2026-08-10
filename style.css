@@ -241,6 +241,11 @@ a:hover {
   transition: 0.3s ease;
 }
 
+.project-card a i {
+  margin-right: 8px;
+  font-size: 25px;
+}
+
 .project-card a:hover {
   background: #e7c209;
   color: #111;
