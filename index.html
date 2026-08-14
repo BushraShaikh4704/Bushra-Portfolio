@@ -28,9 +28,10 @@
     <div class="nav-links">
 
         <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
         <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
 
@@ -138,7 +139,91 @@
 
 </section>
 
+<!-- ======================= ABOUT ============================= -->
 
+<section id="about" class="content-section">
+
+    <div class="section-heading">
+
+    <span class="heading-dot pink"></span>
+
+    <h2>
+        About <span>Me</span>
+    </h2>
+
+</div>
+
+<div class="about-card">
+
+    <!-- LEFT: ABOUT ME -->
+    <div class="about-left">
+        <div class="about-icon">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="about-details">
+            <h3>About Me</h3>
+
+            <p>
+                I’m Bushra Shaikh, a Data Analyst and aspiring Machine Learning
+                professional passionate about turning data into meaningful insights.
+            </p>
+
+            <p>
+                I enjoy working with data, discovering patterns, building
+                visualizations, and creating practical solutions using analytics
+                and machine learning.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- RIGHT: WHAT I DO -->
+    <div class="about-box">
+
+        <h3>What I Do</h3>
+
+        <div class="about-services">
+
+            <div class="about-service">
+                <i class="fa-solid fa-chart-column"></i>
+                <div>
+                    <strong>Data Analysis</strong>
+                    <span>Finding insights and patterns from data.</span>
+                </div>
+            </div>
+
+            <div class="about-service">
+                <i class="fa-solid fa-chart-line"></i>
+                <div>
+                    <strong>Data Visualization</strong>
+                    <span>Creating clear and meaningful dashboards.</span>
+                </div>
+            </div>
+
+            <div class="about-service">
+                <i class="fa-solid fa-brain"></i>
+                <div>
+                    <strong>Machine Learning</strong>
+                    <span>Building predictive and analytical models.</span>
+                </div>
+            </div>
+
+            <div class="about-service">
+                <i class="fa-solid fa-database"></i>
+                <div>
+                    <strong>SQL & Data Management</strong>
+                    <span>Working with structured data and databases.</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
 
 <!-- ================= SKILLS ================= -->
 
@@ -433,44 +518,35 @@
                 and interesting projects.
             </p>
 
-
-            <div class="contact-details">
-
-                <p>
-                    <i class="fa-solid fa-envelope"></i>
-                    bushrashaikh4704@gmail.com
-                </p>
-
-                <p>
-                    <i class="fa-solid fa-location-dot"></i>
-                    India
-                </p>
-
-                <p>
-                    <i class="fa-brands fa-linkedin"></i>
-                    linkedin.com/in/bushrashaikh4704
-                </p>
-
-                <p>
-                    <i class="fa-brands fa-github"></i>
-                    github.com/BushraShaikh4704
-                </p>
-
+            <div class="social-icons">
+                <!-- Email -->
+                <a href="mailto:bushrashaikh4704@gmail.com"
+                class="icon"
+                aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/BushraShaikh4704"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon"
+            aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/bushrashaikh4704"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="icon"
+            aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+            </a>
             </div>
 
         </div>
-
-
         <div class="contact-illustration">
-
-            <div class="illustration-circle"></div>
-
-            <i class="fa-solid fa-envelope-open-text"></i>
-
-            <div class="paper-plane">
-                <i class="fa-solid fa-paper-plane"></i>
-            </div>
-
+            <img src="Envelope.png"
+            alt="Contact illustration">
         </div>
 
 
@@ -534,41 +610,54 @@
 
 <script>
 
-    /* NAVBAR ACTIVE LINK */
+/* NAVBAR ACTIVE LINK */
 
-    const sections = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".nav-links a");
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-links a");
 
-    window.addEventListener("scroll", () => {
+function updateActiveLink() {
 
-        let current = "";
+    let current = "";
 
-        sections.forEach(section => {
+    const scrollPosition = window.scrollY + (window.innerHeight * 0.35);
 
-            const sectionTop = section.offsetTop - 150;
-            const sectionHeight = section.clientHeight;
+    sections.forEach(section => {
 
-            if (
-                window.scrollY >= sectionTop &&
-                window.scrollY < sectionTop + sectionHeight
-            ) {
-                current = section.getAttribute("id");
-            }
-
-        });
-
-        navLinks.forEach(link => {
-
-            link.classList.remove("active");
-
-            if (link.getAttribute("href") === "#" + current) {
-                link.classList.add("active");
-            }
-
-        });
+        if (scrollPosition >= section.offsetTop) {
+            current = section.getAttribute("id");
+        }
 
     });
 
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+}
+
+/* Update while scrolling */
+window.addEventListener("scroll", updateActiveLink);
+
+/* Update when page loads */
+window.addEventListener("load", updateActiveLink);
+
+/* Update when clicking a navbar link */
+navLinks.forEach(link => {
+
+    link.addEventListener("click", function() {
+
+        navLinks.forEach(item => {
+            item.classList.remove("active");
+        });
+
+        this.classList.add("active");
+
+    });
+
+});
 
     /* SMOOTH SCROLL */
 
