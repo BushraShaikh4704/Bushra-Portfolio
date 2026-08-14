@@ -1,11 +1,5 @@
 /* =========================================================
    BUSHRA SHAIKH — PORTFOLIO
-   CLEAN + RESPONSIVE STYLESHEET
-========================================================= */
-
-
-/* =========================================================
-   RESET
 ========================================================= */
 
 * {
@@ -39,7 +33,6 @@ section {
     scroll-margin-top: 75px;
 }
 
-
 /* =========================================================
    COLORS
 ========================================================= */
@@ -48,31 +41,23 @@ section {
     --yellow: #f4b400;
     --yellow-dark: #d99d00;
     --yellow-soft: #fff4c7;
-
     --pink: #ff647f;
     --pink-dark: #f04f6c;
     --pink-light: #ffdce4;
-
     --blue: #3f82ed;
     --blue-dark: #2868cf;
     --blue-light: #dceaff;
-
     --nav-blue: #dce9ff;
     --nav-pink: #ffe5eb;
-
     --text: #101828;
     --text-dark: #0b1324;
     --muted: #3f4d63;
-
     --border: #dcdfe5;
     --border-dark: #cdd2da;
-
     --white: #ffffff;
-
     --shadow: 0 10px 30px rgba(16, 24, 40, 0.10);
     --shadow-hover: 0 16px 38px rgba(16, 24, 40, 0.16);
 }
-
 
 /* =========================================================
    NAVBAR
@@ -82,31 +67,24 @@ section {
     width: 100%;
     height: 70px;
     min-height: 70px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 6%;
-
     position: sticky;
     top: 0;
     z-index: 1000;
-
     background: linear-gradient(
         to right,
         var(--nav-blue) 28%,
         var(--nav-pink) 28%
     );
-
     border-bottom: 1px solid #dfe2e8;
 }
 
 .nav-logo {
     min-width: 250px;
-
     color: var(--text);
-
     font-size: 24px;
     font-weight: 800;
     letter-spacing: -0.7px;
@@ -123,13 +101,10 @@ section {
 
 .nav-left h2 {
     color: var(--text);
-
     font-size: 24px;
     font-weight: 800;
-
     margin: 0;
 }
-
 
 /* =========================================================
    NAVIGATION
@@ -145,30 +120,22 @@ section {
 .nav-links a,
 .nav-center a {
     position: relative;
-
     color: var(--text-dark);
-
     font-size: 15px;
     font-weight: 700;
-
     padding: 25px 0;
-
     transition: 0.25s ease;
 }
 
 .nav-links a::after,
 .nav-center a::after {
     content: "";
-
     position: absolute;
     left: 0;
     bottom: 9px;
-
     width: 0;
     height: 3px;
-
     background: var(--yellow);
-
     transition: 0.25s ease;
 }
 
@@ -189,7 +156,6 @@ section {
     align-items: center;
 }
 
-
 /* =========================================================
    RESUME BUTTON
 ========================================================= */
@@ -199,28 +165,21 @@ section {
     align-items: center;
     justify-content: center;
     gap: 9px;
-
     background: var(--yellow);
     color: #111827;
-
     font-size: 14px;
     font-weight: 800;
-
     padding: 13px 24px;
     border-radius: 30px;
-
     white-space: nowrap;
-
     transition: 0.25s ease;
 }
 
 .resume-btn:hover {
     background: var(--yellow-dark);
     transform: translateY(-2px);
-
     box-shadow: 0 8px 22px rgba(217, 157, 0, 0.30);
 }
-
 
 /* =========================================================
    HERO
@@ -228,28 +187,21 @@ section {
 
 .hero-section {
     min-height: 510px;
-
     position: relative;
     overflow: hidden;
-
     padding: 55px 6% 35px;
-
     background: #ffffff;
 }
 
 .hero-content {
     width: 100%;
     max-width: 1500px;
-
     margin: auto;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 70px;
 }
-
 
 /* =========================================================
    HERO TEXT
@@ -257,7 +209,6 @@ section {
 
 .hero-text {
     width: 52%;
-
     position: relative;
     z-index: 5;
 }
@@ -265,20 +216,15 @@ section {
 .hello-text {
     font-size: 17px;
     font-weight: 700;
-
     margin-bottom: 10px;
 }
 
 .pink-dot {
     display: inline-block;
-
     width: 10px;
     height: 10px;
-
     background: var(--pink);
-
     border-radius: 50%;
-
     margin-left: 5px;
 }
 
@@ -286,9 +232,7 @@ section {
     font-size: 68px;
     line-height: 1.05;
     font-weight: 800;
-
     letter-spacing: -2.2px;
-
     margin-bottom: 14px;
 }
 
@@ -298,11 +242,8 @@ section {
 
 .hero-text h2 {
     font-size: 23px;
-
     color: var(--pink-dark);
-
     font-weight: 700;
-
     margin-bottom: 18px;
 }
 
@@ -313,15 +254,11 @@ section {
 
 .hero-description {
     max-width: 680px;
-
     color: var(--muted);
-
     font-size: 16px;
     line-height: 1.8;
-
     margin-bottom: 27px;
 }
-
 
 /* =========================================================
    HERO BUTTONS
@@ -330,26 +267,19 @@ section {
 .hero-buttons {
     display: flex;
     gap: 16px;
-
     margin-bottom: 25px;
 }
 
 .primary-btn,
 .secondary-btn {
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
-
     gap: 10px;
-
     padding: 14px 27px;
-
     border-radius: 30px;
-
     font-size: 15px;
     font-weight: 700;
-
     transition: 0.25s ease;
 }
 
@@ -360,15 +290,12 @@ section {
 
 .primary-btn:hover {
     transform: translateY(-3px);
-
     box-shadow: 0 8px 22px rgba(217, 157, 0, 0.28);
 }
 
 .secondary-btn {
     color: var(--yellow-dark);
-
     border: 2px solid var(--yellow);
-
     background: #ffffff;
 }
 
@@ -376,7 +303,6 @@ section {
     background: var(--yellow);
     color: #111827;
 }
-
 
 /* =========================================================
    HERO SOCIAL ICONS
@@ -411,7 +337,6 @@ section {
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
-
 /* =========================================================
    HERO IMAGE
 ========================================================= */
@@ -419,9 +344,7 @@ section {
 .hero-image {
     width: 48%;
     height: 420px;
-
     position: relative;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,52 +352,36 @@ section {
 
 .hero-big-circle {
     position: absolute;
-
     width: 370px;
     height: 370px;
-
     background: var(--yellow);
-
     border-radius: 50%;
-
     right: 65px;
     top: 20px;
-
     z-index: 1;
 }
 
 .hero-half-circle {
     position: absolute;
-
     width: 225px;
     height: 108px;
-
     background: var(--yellow);
-
     border-radius: 120px 120px 0 0;
-
     left: 40px;
     bottom: 0;
-
     z-index: 1;
 }
 
 .hero-image img {
     position: absolute;
-
     width: 510px;
     max-width: none;
-
     right: 0;
     bottom: 0;
-
     z-index: 3;
-
     filter: grayscale(100%);
-
     object-fit: contain;
 }
-
 
 /* =========================================================
    HERO DOT PATTERN
@@ -486,22 +393,17 @@ section {
         #111827 1.8px,
         transparent 1.8px
     );
-
     background-size: 11px 11px;
 }
 
 .hero-image-dots {
     position: absolute;
-
     width: 98px;
     height: 98px;
-
     right: 0;
     top: 0;
-
     z-index: 4;
 }
-
 
 /* =========================================================
    HERO DECORATIVE CIRCLES
@@ -509,20 +411,15 @@ section {
 
 .decor-circle {
     position: absolute;
-
     border-radius: 50%;
-
     z-index: 0;
-
     pointer-events: none;
 }
 
 .hero-yellow {
     width: 48px;
     height: 48px;
-
     background: var(--yellow);
-
     left: 2%;
     top: 65px;
 }
@@ -530,9 +427,7 @@ section {
 .hero-pink-small {
     width: 15px;
     height: 15px;
-
     background: var(--pink);
-
     left: 3%;
     top: 125px;
 }
@@ -540,9 +435,7 @@ section {
 .hero-blue-small {
     width: 18px;
     height: 18px;
-
     background: #9fc5ff;
-
     right: 29%;
     bottom: 110px;
 }
@@ -550,9 +443,7 @@ section {
 .hero-yellow-small {
     width: 37px;
     height: 37px;
-
     background: var(--yellow);
-
     right: 31%;
     bottom: 65px;
 }
@@ -560,13 +451,10 @@ section {
 .hero-pink-right {
     width: 48px;
     height: 48px;
-
     background: var(--pink);
-
     right: 2%;
     bottom: 75px;
 }
-
 
 /* =========================================================
    SECTION HEADINGS
@@ -579,7 +467,6 @@ section {
 
 .section-heading h2 {
     display: inline-block;
-
     font-size: 36px;
     font-weight: 800;
 }
@@ -590,19 +477,15 @@ section {
 
 .section-heading p {
     margin-top: 9px;
-
     font-size: 16px;
     color: var(--muted);
 }
 
 .heading-dot {
     display: inline-block;
-
     width: 12px;
     height: 12px;
-
     border-radius: 50%;
-
     margin-right: 10px;
 }
 
@@ -623,7 +506,6 @@ section {
     font-size: 31px;
 }
 
-
 /* =========================================================
    COMMON SECTION WIDTH
 ========================================================= */
@@ -634,11 +516,9 @@ section {
 .contact-section {
     width: 88%;
     max-width: 1500px;
-
     margin-left: auto;
     margin-right: auto;
 }
-
 
 /* =========================================================
    SKILLS
@@ -651,60 +531,41 @@ section {
 
 .skills-grid {
     width: 100%;
-
     display: grid;
-
     grid-template-columns: repeat(6, 1fr);
-
     gap: 28px;
 }
 
 .skill-card {
     min-height: 185px;
-
     border: 1px solid var(--border);
     border-radius: 20px;
-
     background: #ffffff;
-
     box-shadow: var(--shadow);
-
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     transition: 0.25s ease;
-
     padding: 24px 18px;
 }
 
 .skill-card:hover {
     transform: translateY(-7px);
-
     box-shadow: var(--shadow-hover);
-
     border-color: #c8ccd4;
 }
 
 .skill-icon {
     width: auto;
     height: auto;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     font-size: 58px;
-
     margin-bottom: 16px;
-
     background: transparent;
-
     border-radius: 0;
-
     box-shadow: none;
 }
 
@@ -735,7 +596,6 @@ section {
 .skill-card h3 {
     font-size: 18px;
     font-weight: 800;
-
     margin-bottom: 10px;
 }
 
@@ -755,7 +615,6 @@ section {
 .pink-line {
     background: var(--pink);
 }
-
 
 /* =========================================================
    CONTENT SECTIONS
@@ -785,38 +644,28 @@ section {
     box-shadow: var(--shadow-hover);
 }
 
-
 /* =========================================================
    ABOUT ME — LEFT
 ========================================================= */
 
 .about-left {
     width: 100%;
-
     display: flex;
     align-items: flex-start;
-
     padding: 45px 50px;
-
     gap: 28px;
 }
 
 .about-icon {
     width: 70px;
     height: 70px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     flex-shrink: 0;
-
     background: var(--pink-light);
-
     color: var(--pink-dark);
-
     border-radius: 16px;
-
     font-size: 45px;
 }
 
@@ -827,24 +676,17 @@ section {
 
 .about-details h3 {
     font-size: 27px;
-
     font-weight: 800;
-
     margin-bottom: 15px;
-
     color: var(--text);
 }
 
 .about-details p {
     font-size: 15px !important;
-
     color: var(--muted);
-
     line-height: 1.8;
-
     margin-bottom: 13px;
 }
-
 
 /* =========================================================
    WHAT I DO — RIGHT
@@ -852,27 +694,18 @@ section {
 
 .about-box {
     width: 50%;
-
     padding: 45px 50px;
-
     background: #eef4ff;
-
     border-left: 1px solid var(--border);
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
 }
 
 .about-box h3 {
     font-size: 27px;
-
     font-weight: 800;
-
     margin-bottom: 24px;
-
     color: var(--text);
 }
 
@@ -881,7 +714,6 @@ section {
     flex-direction: column;
     gap: 18px;
 }
-
 
 .about-service {
     display: flex;
@@ -893,22 +725,14 @@ section {
 .about-service i {
     width: 40px;
     height: 40px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     flex-shrink: 0;
-
     background: #ffffff;
-
     color: var(--blue);
-
     border-radius: 10px;
-
     font-size: 17px;
-
     box-shadow: 0 4px 12px rgba(16, 24, 40, 0.08);
 }
 
@@ -920,23 +744,18 @@ section {
 .about-service strong {
     display: block;
     text-align: left;
-
     font-size: 14px;
     margin-bottom: 4px;
-
     color: var(--text);
 }
 
 .about-service span {
     display: block;
     text-align: left;
-
     font-size: 12px;
     line-height: 1.5;
-
     color: var(--muted);
 }
-
 
 /* =========================================================
    EDUCATION
@@ -944,22 +763,14 @@ section {
 
 .education-card {
     width: 100%;
-
     min-height: 245px;
-
     display: flex;
     justify-content: space-between;
-
     overflow: hidden;
-
     background: #ffffff;
-
     border: 1px solid var(--border);
-
     border-radius: 22px;
-
     box-shadow: var(--shadow);
-
     transition: 0.25s ease;
 }
 
@@ -970,33 +781,22 @@ section {
 .education-left {
     display: flex;
     align-items: center;
-
     flex: 1;
-
     padding: 40px 55px;
 }
 
 .education-icon {
     width: auto;
     height: auto;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     background: transparent;
-
     color: var(--pink-dark);
-
     border-radius: 0;
-
     font-size: 58px;
-
     margin-right: 34px;
-
     flex-shrink: 0;
-
     box-shadow: none;
 }
 
@@ -1007,19 +807,14 @@ section {
 
 .education-details h4 {
     color: var(--pink-dark);
-
     font-size: 18px;
-
     margin-bottom: 11px;
 }
 
 .education-details p {
     font-size: 16px;
-
     color: var(--muted);
-
     margin-bottom: 12px;
-
     line-height: 1.7;
 }
 
@@ -1032,49 +827,34 @@ section {
     margin-right: 7px;
 }
 
-
 /* =========================================================
    CGPA
 ========================================================= */
 
 .cgpa-box {
     flex: 0 0 30%;
-
     width: 30%;
-
     min-width: 0;
-
     background: #fff9e8;
-
     border-left: 1px solid var(--border);
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     padding: 25px;
 }
 
 .cgpa-box p {
     font-size: 18px;
-
     font-weight: 800;
-
     margin-bottom: 10px;
 }
 
 .cgpa-box strong {
     color: var(--yellow-dark);
-
     font-size: 78px;
-
     line-height: 1;
-
     font-weight: 800;
 }
 
@@ -1087,32 +867,21 @@ section {
     margin-top: 10px;
 }
 
-
 /* =========================================================
    EXPERIENCE
 ========================================================= */
 
 .experience-card {
     width: 100%;
-
     min-height: 245px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 40px 55px;
-
     background: #ffffff;
-
     border: 1px solid var(--border);
-
     border-radius: 22px;
-
     box-shadow: var(--shadow);
-
     transition: 0.25s ease;
 }
 
@@ -1122,7 +891,6 @@ section {
 
 .experience-left {
     width: 49%;
-
     display: flex;
     align-items: center;
 }
@@ -1130,24 +898,15 @@ section {
 .experience-icon {
     width: auto;
     height: auto;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     border-radius: 0;
-
     background: transparent;
-
     color: var(--blue-dark);
-
     font-size: 58px;
-
     margin-right: 34px;
-
     flex-shrink: 0;
-
     box-shadow: none;
 }
 
@@ -1158,19 +917,14 @@ section {
 
 .experience-details h4 {
     color: var(--blue-dark);
-
     font-size: 18px;
-
     margin-bottom: 11px;
 }
 
 .experience-details p {
     font-size: 16px;
-
     line-height: 1.7;
-
     color: var(--muted);
-
     margin-bottom: 10px;
 }
 
@@ -1186,22 +940,16 @@ section {
 
 .experience-points p {
     font-size: 15px;
-
     line-height: 1.8;
-
     color: #344054;
-
     margin: 11px 0;
 }
 
 .experience-points i {
     color: var(--blue);
-
     font-size: 9px;
-
     margin-right: 11px;
 }
-
 
 /* =========================================================
    HOME PAGE — FEATURED PROJECTS
@@ -1214,73 +962,49 @@ section {
 
 .featured-projects {
     width: 100%;
-
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 28px;
-
     align-items: stretch;
 }
 
 .featured-card {
     min-height: 360px;
-
     display: flex;
-
     flex-direction: column;
-
     padding: 30px;
-
     border: 1px solid var(--border);
-
     border-radius: 20px;
-
     background: #ffffff;
-
     box-shadow: var(--shadow);
-
     transition: 0.25s ease;
 }
 
 .featured-card:hover {
     transform: translateY(-8px);
-
     box-shadow: var(--shadow-hover);
-
     border-color: #c8ccd4;
 }
-
 
 /* Home project icon */
 
 .featured-card .project-icon {
     width: auto;
     height: auto;
-
     display: flex;
-
     align-items: center;
     justify-content: flex-start;
-
     border-radius: 0;
-
     background: transparent;
-
     font-size: 40px;
-
     margin-bottom: 17px;
-
     padding: 0;
-
     box-shadow: none;
 }
 
 .featured-card .project-icon i {
     font-size: 40px;
 }
-
 
 /* Home project icon colors */
 
@@ -1303,43 +1027,30 @@ section {
     color: var(--pink-dark);
 }
 
-
 /* Home project title */
 
 .featured-card h3 {
     min-height: 58px;
-
     font-size: 19px;
-
     line-height: 1.4;
-
     margin-bottom: 15px;
 }
-
 
 /* Home project tags */
 
 .featured-card .project-tags {
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 8px;
-
     margin-bottom: 16px;
 }
 
 .featured-card .project-tags span {
     padding: 7px 11px;
-
     border-radius: 20px;
-
     background: #e7f0ff;
-
     color: #26364d;
-
     font-size: 11px;
-
     font-weight: 800;
 }
 
@@ -1351,50 +1062,32 @@ section {
     background: #fff1ca;
 }
 
-
 /* Home project description */
 
 .featured-card > p {
     font-size: 14px;
-
     line-height: 1.75;
-
     color: var(--muted);
-
     margin-bottom: 20px;
 }
-
 
 /* Home GitHub button */
 
 .featured-card .project-link {
     margin-top: auto;
-
     width: 100%;
-
     min-height: 54px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     gap: 12px;
-
     padding: 12px 18px;
-
     border: 2px solid var(--yellow);
-
     border-radius: 12px;
-
     background: #ffffff;
-
     color: var(--yellow-dark);
-
     font-size: 15px;
-
     font-weight: 800;
-
     transition: 0.25s ease;
 }
 
@@ -1404,56 +1097,38 @@ section {
 
 .featured-card .project-link i:last-child {
     margin-left: auto;
-
     font-size: 17px;
 }
 
 .featured-card .project-link:hover {
     background: var(--yellow);
-
     color: #111827;
-
     transform: translateY(-3px);
-
     box-shadow: 0 7px 18px rgba(217, 157, 0, 0.22);
 }
-
 
 /* View all projects */
 
 .view-projects-btn {
     width: 230px;
-
     display: flex;
-
     justify-content: center;
     align-items: center;
-
     gap: 10px;
-
     margin: 28px auto 0;
-
     padding: 14px 20px;
-
     border: 2px solid var(--yellow);
-
     border-radius: 28px;
-
     color: var(--yellow-dark);
-
     font-size: 15px;
-
     font-weight: 800;
-
     transition: 0.25s ease;
 }
 
 .view-projects-btn:hover {
     background: var(--yellow);
-
     color: #111827;
 }
-
 
 /* =========================================================
    ALL PROJECTS PAGE
@@ -1462,39 +1137,29 @@ section {
 
 .all-projects-section {
     position: relative;
-
     min-height: calc(100vh - 160px);
-
     padding: 65px 6% 90px;
-
     overflow: hidden;
-
     background: #ffffff;
 }
-
 
 /* All Projects heading */
 
 .projects-heading {
     text-align: center;
-
     margin-bottom: 50px;
 }
 
 .projects-heading h1 {
     margin: 0;
-
     font-size: 46px;
-
     font-weight: 800;
-
     color: #111827;
 }
 
 .projects-heading h1 span:not(.heading-dot) {
     color: var(--yellow);
 }
-
 
 /*
    Important:
@@ -1505,59 +1170,39 @@ section {
 .projects-heading .heading-dot {
     width: auto;
     height: auto;
-
     color: var(--pink);
-
     background: transparent;
-
     font-size: 52px;
-
     margin-right: 8px;
 }
 
 .projects-heading p {
     margin-top: 12px;
-
     font-size: 17px;
-
     color: #374151;
 }
-
 
 /* All Projects grid */
 
 .all-projects-grid {
     max-width: 1400px;
-
     margin: 0 auto;
-
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
-
     gap: 28px;
-
     align-items: stretch;
 }
-
 
 /* All Projects card */
 
 .new-project-card {
     background: #ffffff;
-
     border: 1px solid #e1e5eb;
-
     border-radius: 20px;
-
     padding: 32px;
-
     box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
-
     display: flex;
-
     flex-direction: column;
-
     transition:
         transform 0.3s ease,
         box-shadow 0.3s ease;
@@ -1565,71 +1210,49 @@ section {
 
 .new-project-card:hover {
     transform: translateY(-7px);
-
     box-shadow:
         0 18px 38px rgba(15, 23, 42, 0.13);
 }
-
 
 /* All Projects icon */
 
 .new-project-card .project-icon {
     font-size: 38px;
-
     width: 58px;
     height: 58px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     margin-bottom: 18px;
-
     background: transparent;
-
     border-radius: 0;
-
     padding: 0;
 }
-
 
 /* All Projects title */
 
 .new-project-card h2 {
     margin: 0 0 20px;
-
     font-size: 21px;
-
     line-height: 1.35;
-
     color: #111827;
 }
-
 
 /* All Projects tags */
 
 .new-project-card .project-tags {
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 8px;
-
     margin-bottom: 20px;
 }
 
 .new-project-card .project-tags span {
     padding: 7px 13px;
-
     border-radius: 20px;
-
     background: #eef4ff;
-
     color: #16345f;
-
     font-size: 13px;
-
     font-weight: 700;
 }
 
@@ -1641,58 +1264,38 @@ section {
     background: #fff3cf;
 }
 
-
 /* All Projects description */
 
 .new-project-card p {
     color: #334155;
-
     font-size: 15px;
-
     line-height: 1.75;
-
     margin: 0 0 14px;
 }
-
 
 /* All Projects GitHub button */
 
 .github-project-btn {
     margin-top: auto;
-
     min-height: 54px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     gap: 10px;
-
     padding: 12px 18px;
-
     border: 2px solid var(--yellow);
-
     border-radius: 14px;
-
     color: var(--yellow-dark);
-
     background: #ffffff;
-
     text-decoration: none;
-
     font-size: 15px;
-
     font-weight: 700;
-
     transition: all 0.25s ease;
 }
 
 .github-project-btn:hover {
     background: var(--yellow);
-
     color: #111827;
-
     transform: translateY(-2px);
 }
 
@@ -1703,7 +1306,6 @@ section {
 .github-project-btn i:last-child {
     margin-left: auto;
 }
-
 
 /* =========================================================
    CONTACT
@@ -1752,70 +1354,49 @@ section {
 
 .contact-content {
     width: 55%;
-
     z-index: 3;
 }
 
 .contact-description {
     max-width: 700px;
-
     font-size: 16px;
-
     line-height: 1.8;
-
     color: var(--muted);
-
     margin-bottom: 18px;
 }
-
 
 /* Contact details */
 
 .contact-details {
     display: flex;
-
     flex-direction: column;
-
     gap: 10px;
-
     margin-top: 10px;
 }
 
 .contact-details p {
     display: flex;
-
     align-items: center;
-
     gap: 12px;
-
     font-size: 14px;
-
     color: #344054;
 }
 
 .contact-details p i {
     width: 22px;
-
     color: #101828;
-
     text-align: center;
 }
-
 
 /* Contact socials */
 
 .social-icons {
     display: flex;
-
     align-items: center;
     justify-content: flex-start;
-
     gap: 35px;
-
     position: relative;
-
     z-index: 10;
-
     margin-top: 28px;
 }
 
@@ -1841,20 +1422,15 @@ section {
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
 }
 
-
 /* Contact illustration */
 
 .contact-illustration {
     position: absolute;
-
     width: 520px;
     height: 320px;
-
     right: 45px;
     top: 50%;
-
     transform: translateY(-50%);
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1863,9 +1439,7 @@ section {
 .contact-illustration img {
     width: 100%;
     height: 100%;
-
     object-fit: contain;
-
     display: block;
 }
 
@@ -1873,40 +1447,26 @@ section {
 
 .contact-btn {
     position: absolute;
-
     right: 45px;
     bottom: 32px;
-
     padding: 14px 27px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     gap: 10px;
-
     background: var(--yellow);
-
     border-radius: 28px;
-
     color: #111827;
-
     font-size: 15px;
-
     font-weight: 800;
-
     z-index: 5;
-
     transition: 0.25s ease;
 }
 
 .contact-btn:hover {
     background: var(--yellow-dark);
-
     transform: translateY(-3px);
 }
-
 
 /* =========================================================
    FOOTER
@@ -1914,16 +1474,11 @@ section {
 
 footer {
     min-height: 78px;
-
     display: flex;
-
     align-items: center;
     justify-content: space-between;
-
     padding: 10px 6%;
-
     background: #080d21;
-
     color: #ffffff;
 }
 
@@ -1966,17 +1521,13 @@ footer {
 
 .footer-socials a:hover {
     color: var(--yellow);
-
     transform: translateY(-4px);
 }
 
 .footer-text {
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
-
     gap: 3px;
 }
 
@@ -1993,22 +1544,14 @@ footer {
 .back-top {
     width: 40px;
     height: 40px;
-
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     background: var(--yellow);
-
     color: #111827;
-
     border-radius: 50%;
-
     font-size: 17px;
-
     line-height: 1;
-
     transition: 0.25s ease;
 }
 
@@ -2016,25 +1559,20 @@ footer {
     transform: translateY(-4px);
 }
 
-
 /* =========================================================
    SCROLL REVEAL
 ========================================================= */
 
 .reveal {
     opacity: 0;
-
     transform: translateY(40px);
-
     transition: all 0.7s ease;
 }
 
 .reveal.active {
     opacity: 1;
-
     transform: translateY(0);
 }
-
 
 /* =========================================================
    DECORATIVE SECTION CIRCLES
@@ -2042,31 +1580,23 @@ footer {
 
 .section-decor {
     position: relative;
-
     overflow: hidden;
 }
 
 .section-decor .sec-circle {
     position: absolute;
-
     border-radius: 50%;
-
     z-index: 0;
-
     opacity: 0.55;
-
     pointer-events: none;
 }
-
 
 /* Bottom right */
 
 .br-yellow-xl {
     width: 220px;
     height: 220px;
-
     background: #f1c72d;
-
     bottom: -85px;
     right: -60px;
 }
@@ -2074,9 +1604,7 @@ footer {
 .br-pink-lg {
     width: 160px;
     height: 160px;
-
     background: #ed7f93;
-
     bottom: -95px;
     right: 210px;
 }
@@ -2084,9 +1612,7 @@ footer {
 .br-blue-md {
     width: 110px;
     height: 110px;
-
     background: #70a9e8;
-
     bottom: 0;
     right: 155px;
 }
@@ -2094,9 +1620,7 @@ footer {
 .br-pink-sm {
     width: 45px;
     height: 45px;
-
     background: #ed7f93;
-
     bottom: 170px;
     right: 10px;
 }
@@ -2104,22 +1628,17 @@ footer {
 .br-blue-sm {
     width: 16px;
     height: 16px;
-
     background: #f1c72d;
-
     bottom: 80px;
     right: 280px;
 }
-
 
 /* Top left */
 
 .tl-blue-lg {
     width: 170px;
     height: 170px;
-
     background: #70a9e8;
-
     top: -85px;
     left: -70px;
 }
@@ -2127,9 +1646,7 @@ footer {
 .tl-pink-md {
     width: 110px;
     height: 110px;
-
     background: #ed7f93;
-
     top: -50px;
     left: 105px;
 }
@@ -2137,9 +1654,7 @@ footer {
 .tl-yellow-sm {
     width: 55px;
     height: 55px;
-
     background: #f1c72d;
-
     top: 150px;
     left: 10px;
 }
@@ -2147,13 +1662,10 @@ footer {
 .tl-pink-sm {
     width: 17px;
     height: 17px;
-
     background: #ed7f93;
-
     top: 140px;
     left: 70px;
 }
-
 
 /* =========================================================
    CENTER PAGES
@@ -2161,77 +1673,50 @@ footer {
 
 .center-sec {
     min-height: 550px;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     padding: 90px 8%;
 }
 
 .center-sec h2 {
     position: relative;
-
     z-index: 2;
-
     font-size: 46px;
-
     margin-bottom: 28px;
 }
 
 .center-sec p {
     position: relative;
-
     z-index: 2;
-
     max-width: 1050px;
-
     color: var(--muted);
-
     font-size: 18px;
-
     line-height: 1.9;
 }
 
 .center-sec ul {
     position: relative;
-
     z-index: 2;
-
     list-style: none;
-
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 20px 35px;
-
     width: min(850px, 100%);
-
     margin-top: 30px;
 }
 
 .center-sec ul li {
     padding: 19px 25px;
-
     background: #ffffff;
-
     border: 1px solid var(--border);
-
     border-radius: 14px;
-
     box-shadow: var(--shadow);
-
     font-size: 17px;
-
     font-weight: 700;
 }
-
 
 /* =========================================================
    ABOUT PAGE
@@ -2239,40 +1724,27 @@ footer {
 
 #about {
     min-height: 550px;
-
     display: flex;
-
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     padding: 85px 8%;
 }
 
 #about h2 {
     position: relative;
-
     z-index: 2;
-
     font-size: 44px;
-
     margin-bottom: 26px;
 }
 
 #about p {
     position: relative;
-
     z-index: 2;
-
     max-width: 1050px;
-
     font-size: 18px;
-
     line-height: 1.9;
-
     color: var(--muted);
 }
 
@@ -2282,23 +1754,14 @@ footer {
 
 #about > a {
     position: relative;
-
     z-index: 5;
-
     display: inline-block;
-
     margin-top: 28px;
-
     padding: 14px 27px;
-
     background: var(--yellow);
-
     color: #222;
-
     border-radius: 28px;
-
     font-size: 15px;
-
     font-weight: 800;
 }
 
@@ -2306,16 +1769,13 @@ footer {
     color: var(--text);
 }
 
-
 /* =========================================================
    LARGE TABLET
 ========================================================= */
 
 @media (max-width: 1250px) {
-
     .navbar {
         padding: 0 35px;
-
         background: linear-gradient(
             to right,
             var(--nav-blue) 25%,
@@ -2345,23 +1805,19 @@ footer {
 
     .resume-btn {
         padding: 10px 17px;
-
         font-size: 12px;
     }
-
 
     /* Hero */
 
     .hero-section {
         min-height: 460px;
-
         padding-left: 4%;
         padding-right: 4%;
     }
 
     .hero-content {
         max-width: 95%;
-
         gap: 40px;
     }
 
@@ -2375,7 +1831,6 @@ footer {
 
     .hero-description {
         font-size: 14px;
-
         max-width: 540px;
     }
 
@@ -2390,32 +1845,26 @@ footer {
     .hero-big-circle {
         width: 320px;
         height: 320px;
-
         right: 35px;
     }
 
     .hero-half-circle {
         width: 185px;
         height: 88px;
-
         left: 25px;
     }
-
 
     /* Skills */
 
     .skills-grid {
         grid-template-columns: repeat(3, 1fr);
-
         gap: 22px;
     }
-
 
     /* Home Featured Projects */
 
     .featured-projects {
         grid-template-columns: repeat(2, 1fr);
-
         gap: 24px;
     }
 
@@ -2423,15 +1872,12 @@ footer {
         min-height: 340px;
     }
 
-
     /* All Projects */
 
     .all-projects-grid {
         grid-template-columns: repeat(3, 1fr);
-
         gap: 24px;
     }
-
 
     /* Education */
 
@@ -2445,17 +1891,14 @@ footer {
 
     .cgpa-box {
         flex: 0 0 30%;
-
         width: 30%;
     }
-
 
     /* Experience */
 
     .experience-card {
         padding: 32px;
     }
-
 
     /* Contact */
 
@@ -2465,7 +1908,6 @@ footer {
 
     .contact-illustration {
         right: 55px;
-
         width: 380px;
     }
 
@@ -2473,28 +1915,21 @@ footer {
         font-size: 95px;
     }
 
-
     .contact-btn {
         right: 25px;
     }
 }
-
 
 /* =========================================================
    TABLET
 ========================================================= */
 
 @media (max-width: 900px) {
-
     .navbar {
         height: auto;
-
         min-height: 70px;
-
         flex-wrap: wrap;
-
         padding: 12px 25px;
-
         gap: 10px;
     }
 
@@ -2513,12 +1948,10 @@ footer {
         font-size: 12px;
     }
 
-
     /* Hero */
 
     .hero-section {
         min-height: auto;
-
         padding: 50px 35px 30px;
     }
 
@@ -2556,7 +1989,6 @@ footer {
         height: 76px;
     }
 
-
     /* Sections */
 
     .skills-section,
@@ -2565,7 +1997,6 @@ footer {
     .contact-section {
         width: 90%;
     }
-
 
     /* Skills */
 
@@ -2576,7 +2007,6 @@ footer {
     .skill-icon {
         font-size: 52px;
     }
-
 
     /* Education */
 
@@ -2598,14 +2028,12 @@ footer {
 
     .cgpa-box {
         flex: 0 0 30%;
-
         width: 30%;
     }
 
     .cgpa-box strong {
         font-size: 62px;
     }
-
 
     /* Experience */
 
@@ -2626,7 +2054,6 @@ footer {
         font-size: 52px;
     }
 
-
     /* All Projects */
 
     .all-projects-section {
@@ -2642,12 +2069,10 @@ footer {
         font-size: 40px;
     }
 
-
     /* Contact */
 
     .contact-illustration {
         right: 10px;
-
         width: 340px;
     }
 
@@ -2656,138 +2081,107 @@ footer {
     }
 }
 
-
 /* =========================================================
    MOBILE
 ========================================================= */
 
 @media (max-width: 700px) {
-
     body {
         overflow-x: hidden;
     }
 
+    /* =====================================================
+       MOBILE NAVBAR
+    ===================================================== */
 
-/* =====================================================
-   MOBILE NAVBAR
-===================================================== */
+    .navbar {
+        height: auto;
+        min-height: 75px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 15px;
+        margin: 0;
+        gap: 0;
+        background: var(--nav-pink);
+    }
 
-.navbar {
-    height: auto;
-    min-height: 75px;
+    /* ===============================
+       BUSHRA — BLUE LEFT
+    ================================ */
 
-    display: flex;
-    flex-wrap: wrap;
+    .nav-left {
+        width: 50%;
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
 
-    padding: 10px 15px;
-    margin: 0;
+    .nav-left h2 {
+        margin: 0;
+        font-size: 20px;
+        white-space: nowrap;
+    }
 
-    gap: 0;
-    
-    background: var(--nav-pink);
-}
+    .nav-right {
+        width: 50%;
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
 
+    .nav-right .resume-btn {
+        margin: 0 !important;
+        padding: 8px 13px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
 
-/* ===============================
-   BUSHRA — BLUE LEFT
-================================ */
+    /* ===============================
+       NAVIGATION — PINK BELOW
+    ================================ */
 
-.nav-left {
-    width: 50%;
-    order: 1;
+    .nav-center,
+    .nav-links {
+        width: 100%;
+        order: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px 15px;
+        background: var(--nav-pink);
+        box-sizing: border-box;
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    .nav-center a,
+    .nav-links a {
+        padding: 6px 0;
+        font-size: 12px;
+    }
 
-    padding: 10px 15px;
-
-    box-sizing: border-box;
-}
-
-.nav-left h2 {
-    margin: 0;
-    font-size: 20px;
-    white-space: nowrap;
-}
-
-
-.nav-right {
-    width: 50%;
-    order: 2;
-
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-
-    padding: 10px 15px;
-
-    box-sizing: border-box;
-}
-
-.nav-right .resume-btn {
-    margin: 0 !important;
-
-    padding: 8px 13px;
-
-    font-size: 10px;
-
-    white-space: nowrap;
-}
-
-
-/* ===============================
-   NAVIGATION — PINK BELOW
-================================ */
-
-.nav-center,
-.nav-links {
-    width: 100%;
-
-    order: 3;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 15px;
-
-    padding: 10px 15px;
-
-    background: var(--nav-pink);
-
-    box-sizing: border-box;
-}
-
-.nav-center a,
-.nav-links a {
-    padding: 6px 0;
-
-    font-size: 12px;
-}
-
-.nav-center a::after,
-.nav-links a::after {
-    bottom: -3px;
-    height: 2px;
-}
-
+    .nav-center a::after,
+    .nav-links a::after {
+        bottom: -3px;
+        height: 2px;
+    }
 
     /* Hero */
 
     .hero-section {
         min-height: auto;
-
         padding: 45px 20px 25px;
     }
 
     .hero-content {
         flex-direction: column;
-
         text-align: center;
-
         gap: 15px;
     }
 
@@ -2801,43 +2195,35 @@ footer {
 
     .hero-text h1 {
         font-size: 44px;
-
         letter-spacing: -1.5px;
     }
 
     .hero-text h2 {
         font-size: 18px;
-
         line-height: 1.5;
     }
 
     .hero-description {
         margin-left: auto;
         margin-right: auto;
-
         font-size: 13px;
-
         max-width: 520px;
-
         line-height: 1.7;
     }
 
     .hero-buttons {
         justify-content: center;
-
         flex-wrap: wrap;
     }
 
     .primary-btn,
     .secondary-btn {
         font-size: 13px;
-
         padding: 11px 20px;
     }
 
     .hero-socials {
         justify-content: center;
-
         gap: 24px;
     }
 
@@ -2845,55 +2231,41 @@ footer {
         font-size: 27px;
     }
 
-
     /* Hero image */
 
     .hero-image {
         width: 100%;
-
         height: 350px;
-
         margin-top: 5px;
     }
 
     .hero-big-circle {
         width: 275px;
         height: 275px;
-
         right: 50%;
-
         transform: translateX(50%);
-
         top: 15px;
     }
 
     .hero-image img {
         width: 350px;
-
         right: 50%;
-
         transform: translateX(50%);
-
         bottom: 0;
     }
 
     .hero-half-circle {
         width: 190px;
         height: 90px;
-
         left: 50%;
-
         transform: translateX(-50%);
-
         bottom: 0;
     }
 
     .hero-image-dots {
         right: 4%;
-
         top: 5px;
     }
-
 
     /* Sections */
 
@@ -2904,12 +2276,10 @@ footer {
         width: calc(100% - 30px);
     }
 
-
     /* Skills */
 
     .skills-section {
         padding-top: 38px;
-
         padding-bottom: 45px;
     }
 
@@ -2927,26 +2297,22 @@ footer {
 
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
-
         gap: 16px;
     }
 
     .skill-card {
         min-height: 155px;
-
         padding: 18px 10px;
     }
 
     .skill-icon {
         font-size: 48px;
-
         margin-bottom: 12px;
     }
 
     .skill-card h3 {
         font-size: 15px;
     }
-
 
     /* Content */
 
@@ -2958,66 +2324,59 @@ footer {
         font-size: 27px;
     }
 
-/* =====================================================
-   ABOUT — MOBILE
-===================================================== */
+    /* =====================================================
+       ABOUT — MOBILE
+    ===================================================== */
 
-.about-card {
-    width: 110%;
-    max-width: 110%;
-    margin-left: 0;
-    margin-right: 0;
+    .about-card {
+        width: 110%;
+        max-width: 110%;
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
 
-    flex-direction: column;
-}
+    .about-left {
+        width: 100%;
+        padding: 30px 24px;
+    }
 
-.about-left {
-    width: 100%;
-    padding: 30px 24px;
-}
+    .about-box {
+        width: 100%;
+        padding: 30px 24px;
+        border-left: 0;
+        border-top: 1px solid var(--border);
+    }
 
-.about-box {
-    width: 100%;
+    .about-details h3,
+    .about-box h3 {
+        font-size: 22px;
+    }
 
-    padding: 30px 24px;
+    .about-details p {
+        font-size: 15px !important;
+    }
 
-    border-left: 0;
-    border-top: 1px solid var(--border);
-}
-
-.about-details h3,
-.about-box h3 {
-    font-size: 22px;
-}
-
-.about-details p {
-    font-size: 15px !important;
-}
-
-.about-services {
-    grid-template-columns: 1fr;
-    gap: 16px;
-}
+    .about-services {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
 
     /* Education */
 
     .education-card {
         flex-direction: column;
-
         min-height: auto;
     }
 
     .education-left {
         padding: 30px 24px;
-
         align-items: flex-start;
     }
 
     .education-icon {
         flex-shrink: 0;
-
         margin-right: 18px;
-
         font-size: 48px;
     }
 
@@ -3039,15 +2398,10 @@ footer {
 
     .cgpa-box {
         flex: 0 0 100%;
-
         width: 100%;
-
         min-width: 0;
-
         min-height: 160px;
-
         border-left: 0;
-
         border-top: 1px solid var(--border);
     }
 
@@ -3059,18 +2413,13 @@ footer {
         font-size: 15px;
     }
 
-
     /* Experience */
 
     .experience-card {
         flex-direction: column;
-
         align-items: flex-start;
-
         gap: 25px;
-
         padding: 30px 24px;
-
         min-height: auto;
     }
 
@@ -3081,7 +2430,6 @@ footer {
 
     .experience-icon {
         font-size: 48px;
-
         margin-right: 18px;
     }
 
@@ -3096,10 +2444,8 @@ footer {
     .experience-details p,
     .experience-points p {
         font-size: 13px;
-
         line-height: 1.7;
     }
-
 
     /* =====================================================
        HOME FEATURED PROJECTS
@@ -3111,19 +2457,16 @@ footer {
 
     .featured-projects {
         grid-template-columns: 1fr;
-
         gap: 18px;
     }
 
     .featured-card {
         min-height: 310px;
-
         padding: 24px;
     }
 
     .featured-card .project-icon {
         font-size: 36px;
-
         margin-bottom: 15px;
     }
 
@@ -3145,14 +2488,12 @@ footer {
 
     .featured-card .project-link {
         min-height: 52px;
-
         font-size: 14px;
     }
 
     .featured-card .project-link i:first-child {
         font-size: 23px;
     }
-
 
     /* =====================================================
        ALL PROJECTS PAGE
@@ -3164,7 +2505,6 @@ footer {
 
     .all-projects-grid {
         grid-template-columns: 1fr;
-
         gap: 18px;
     }
 
@@ -3198,10 +2538,8 @@ footer {
 
     .github-project-btn {
         min-height: 52px;
-
         font-size: 14px;
     }
-
 
     /* Contact */
 
@@ -3215,11 +2553,8 @@ footer {
 
     .contact-card {
         min-height: 470px;
-
         padding: 32px 24px;
-
         flex-direction: column;
-
         align-items: flex-start;
     }
 
@@ -3241,7 +2576,6 @@ footer {
 
     .social-icons {
         gap: 23px;
-
         margin-top: 25px;
     }
 
@@ -3249,105 +2583,81 @@ footer {
         font-size: 28px;
     }
 
-
     /* Contact illustration */
 
     .contact-illustration {
-    position: relative;
+        position: relative;
+        width: 100%;
+        height: 190px;
+        right: auto;
+        top: auto;
+        transform: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-    width: 100%;
-    height: 190px;
-
-    right: auto;
-    top: auto;
-
-    transform: none;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-illustration img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: contain;
-}
+    .contact-illustration img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 
     .contact-btn {
         right: 50%;
-
         transform: translateX(50%);
-
         bottom: 20px;
-
         white-space: nowrap;
-
         font-size: 12px;
-
         padding: 11px 21px;
     }
 
+    /* Footer */
 
-/* Footer */
+    footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 15px;
+    }
 
-footer {
-    flex-direction: row;
+    .footer-socials {
+        width: auto;
+        justify-content: flex-start;
+        gap: 18px;
+        flex-shrink: 0;
+    }
 
-    align-items: center;
-    justify-content: space-between;
+    .footer-text {
+        flex: 1;
+        align-items: flex-end;
+        text-align: right;
+        gap: 3px;
+    }
 
-    gap: 15px;
+    .footer-socials a {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+    }
 
-    padding: 15px;
-}
+    .footer-text strong {
+        font-size: 12px;
+    }
 
-.footer-socials {
-    width: auto;
+    .footer-text span {
+        font-size: 9px;
+    }
 
-    justify-content: flex-start;
-
-    gap: 18px;
-
-    flex-shrink: 0;
-}
-
-.footer-text {
-    flex: 1;
-
-    align-items: flex-end;
-
-    text-align: right;
-
-    gap: 3px;
-}
-
-.footer-socials a {
-    width: 32px;
-    height: 32px;
-
-    font-size: 18px;
-}
-
-.footer-text strong {
-    font-size: 12px;
-}
-
-.footer-text span {
-    font-size: 9px;
-}
-
-.back-top {
-    display: none;
-}
-
+    .back-top {
+        display: none;
+    }
 
     /* Center pages */
 
     .center-sec {
         min-height: 560px;
-
         padding: 65px 20px;
     }
 
@@ -3357,28 +2667,23 @@ footer {
 
     .center-sec p {
         font-size: 15px;
-
         line-height: 1.8;
     }
 
     .center-sec ul {
         grid-template-columns: 1fr;
-
         gap: 12px;
     }
 
     .center-sec ul li {
         font-size: 14px;
-
         padding: 16px 20px;
     }
-
 
     /* About */
 
     #about {
         min-height: 560px;
-
         padding: 60px 20px;
     }
 
@@ -3388,24 +2693,20 @@ footer {
 
     #about p {
         font-size: 14px;
-
         line-height: 1.8;
     }
 
     #about > a {
         font-size: 13px;
-
         padding: 11px 22px;
     }
 }
-
 
 /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
 @media (max-width: 400px) {
-
     .nav-links,
     .nav-center {
         gap: 9px;
@@ -3415,7 +2716,6 @@ footer {
     .nav-center a {
         font-size: 9px;
     }
-
 
     /* Hero */
 
@@ -3444,7 +2744,6 @@ footer {
         height: 250px;
     }
 
-
     /* Skills */
 
     .skills-grid {
@@ -3463,24 +2762,20 @@ footer {
         font-size: 14px;
     }
 
-
-.about-details h3 {
-    font-size: 19px;
-}
+    .about-details h3 {
+        font-size: 19px;
+    }
 
     /* Education */
 
     .education-left {
         flex-direction: column;
-
         align-items: center;
-
         text-align: center;
     }
 
     .education-icon {
         margin: 0 0 14px;
-
         font-size: 48px;
     }
 
@@ -3488,12 +2783,10 @@ footer {
         font-size: 19px;
     }
 
-
     /* CGPA */
 
     .cgpa-box {
         width: 100%;
-
         min-width: 0;
     }
 
@@ -3501,13 +2794,11 @@ footer {
         font-size: 55px;
     }
 
-
     /* Experience */
 
     .experience-details h3 {
         font-size: 19px;
     }
-
 
     /* Home projects */
 
@@ -3523,7 +2814,6 @@ footer {
         font-size: 34px;
     }
 
-
     /* All projects */
 
     .new-project-card {
@@ -3533,7 +2823,6 @@ footer {
     .new-project-card h2 {
         font-size: 18px;
     }
-
 
     /* Contact */
 
